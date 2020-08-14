@@ -1,0 +1,55 @@
+html {
+    background-image: linear-gradient( rgba(22, 22, 22, 0.198), rgba(87, 199, 64, 0.452)), url("images\ \(57\).jpg");
+    background-repeat: no-repeat;
+     background-size: cover;
+     height: 1020px;
+     
+}
+ul.nav {
+    align-content: center;
+    list-style: none; /* this removes the list marker */
+    
+	margin-left: auto;
+    margin-right: auto;
+}
+ul.nav li {
+    text-decoration: none;
+	float: left;
+	text-align:center;
+    width: 18%;
+    background-color: rgb(177, 19, 85);
+	/*border-bottom: 1px solid #666;  this creates the button separation */
+}
+ul.nav li a {
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+a:hover {
+    background-color: #000;
+}
+
+a:active {
+    background-color: #4CAF50;
+}
+.glow {
+    margin-top: 300px;
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #23c0e7, 0 0 40px #04b39b, 0 0 50px #18a4e6, 0 0 60px #3ed1eb, 0 0 70px #02aab6;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
